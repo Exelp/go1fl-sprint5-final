@@ -17,7 +17,7 @@ type DaySteps struct {
 }
 
 func (ds *DaySteps) Parse(datastring string) (err error) {
-	// TODO: реализовать функцию
+	// TODO: реализовать
 	parts := strings.Split(datastring, ",")
 	if len(parts) != 2 {
 		return fmt.Errorf("invalid data string: %w", err)
